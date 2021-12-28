@@ -4,6 +4,16 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+const glyphStates = {
+  "♡": "♥",
+  "♥": "♡"
+};
+const colorStates = {
+  "red": "",
+  "": "red"
+};
+
+const articleHearts = document.querySelectorall(".like-glyph");
 
 
 
